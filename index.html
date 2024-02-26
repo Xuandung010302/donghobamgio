@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đồng hồ bấm giờ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <div id="display">00:00:00:000</div>
+        <button onclick="startStopwatch()"><i class="fas fa-play"></i></button>
+        <button onclick="pauseStopwatch()"><i class="fas fa-pause"></i></button>
+        <button onclick="resetStopwatch()"><i class="fas fa-stop"></i></button>
+        <button onclick="addLap()"><i class="fas fa-flag"></i> Add Lap</button>
+        <ul id="lapList"></ul>
+      </div>
+  
+    <script src="script.js"></script>
+</body>  
+</html>
